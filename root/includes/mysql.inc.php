@@ -1,5 +1,5 @@
 <?php
-
+echo 'Entrou no mysql';
 define('DB_USER', 'brangi-dev');
 define('DB_PASSWORD', 'Admin@9474');
 define('DB_HOST', 'brangi-dev.database.windows.net');

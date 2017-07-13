@@ -1,7 +1,6 @@
 <?php
-
-echo 'TA ENTRANDOOO';
- /* if (!defined('LIVE')) {
+echo 'TA ENTRANDOO';
+ if (!defined('LIVE')) {
  	// determina o modo como os erros serao tratados
  	define('LIVE', false);
  }
@@ -60,6 +59,6 @@ echo 'TA ENTRANDOOO';
 		$url = $protocol. BASE_URL.$destination;
 		header("Location: $url");
 		exit();
-	} 
+	}
  }
  

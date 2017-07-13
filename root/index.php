@@ -8,7 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	include './includes/login.inc.php';
 }
 include './includes/header.html';
-echo 'hello world!';
 ?>
 
 <h1>Welcome</h1>

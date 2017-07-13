@@ -2,7 +2,7 @@
 require './includes/config.inc.php';
 // $_SESSION['user_id'] = 1;
 // $_SESSION['user_admin'] = true;
-//require MYSQL;
+require MYSQL;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	include './includes/login.inc.php';

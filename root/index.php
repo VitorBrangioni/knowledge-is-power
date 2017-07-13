@@ -1,5 +1,5 @@
 <?php
-//require './includes/config.inc.php';
+require './includes/config.inc.php';
 // $_SESSION['user_id'] = 1;
 // $_SESSION['user_admin'] = true;
 //require MYSQL;

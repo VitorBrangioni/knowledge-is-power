@@ -1,13 +1,12 @@
 <?php
-echo 'Entrou no mysql';
-define('DB_USER', 'brangi-dev');
-define('DB_PASSWORD', 'Admin@9474');
-define('DB_HOST', 'brangi-dev.database.windows.net');
-define('DB_NAME', 'knowledge-is-power');
+define('DB_USER', 'admin');
+define('DB_PASSWORD', 'Admin@Site123');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'larryullman_ecommerce1');
 
-/* $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+$dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-mysqli_set_charset($dbc, 'utf8'); */
+mysqli_set_charset($dbc, 'utf8');
 
 /**
  * Remove as barras extras quando o Magic Quotos estiver habilitado

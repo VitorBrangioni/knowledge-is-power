@@ -1,5 +1,4 @@
 <?php
-echo 'TA ENTRANDOO';
  if (!defined('LIVE')) {
  	// determina o modo como os erros serao tratados
  	define('LIVE', false);
@@ -11,8 +10,8 @@ echo 'TA ENTRANDOO';
  // As primeiras constantes que o site utilizara 
  define('HTTPS', 'https://');
  define('HTTP', 'http://');
- define('BASE_URI', '/var/www/html/knowledge-is-power/includes/');
- define('BASE_URL', 'localhost/knowledge-is-power/');
+ define('BASE_URI', '/var/www/html/knowledge-is-power/root/includes/');
+ define('BASE_URL', 'localhost/knowledge-is-power/root');
  define('PDFS_DIR', '/var/www/html/pdfs/');
  define('MYSQL', BASE_URI . 'mysql.inc.php');
  
